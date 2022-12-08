@@ -58,7 +58,7 @@ function getSame (itemA, itemB, itemC) {
         for (const b of itemB) {
             if (a === b) {
                 for (const c of itemC) {
-                    if (a === b && b === c) {
+                    if (a === c && b === c) {
                         return a;
                     }
                 }

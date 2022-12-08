@@ -1,13 +1,4 @@
-const { input02 } = require('./input.js')
-
-
-const rules = {};
-
-const points = {
-    'w': 6,
-    'd': 3,
-    'l': 0
-};
+const { input } = require('./input.js')
 
 function convertInput (input) {
     return input.split('\n');

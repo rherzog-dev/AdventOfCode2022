@@ -1,4 +1,4 @@
-const input02 = 'B Z\n' +
+const input = 'B Z\n' +
   'B Z\n' +
   'B Y\n' +
   'C Y\n' +
@@ -2499,4 +2499,4 @@ const input02 = 'B Z\n' +
   'A Y\n' +
   'C Y'
 
-module.exports = {input02}
+module.exports = {input}
